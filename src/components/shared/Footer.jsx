@@ -15,7 +15,7 @@ const Footer = () => {
               <br />
             </p>
             <p>
-              Copyright © {new Date().getFullYear()} - All right reserved{" "}
+              Copyright © {new Date().getFullYear()} - All right reserved ⚙️
               <a href="" className="text-[#db4b86] font-semibold">
                 Abdur Razzak
               </a>
