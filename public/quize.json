@@ -1,0 +1,857 @@
+[
+  {
+    "id": 1,
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Jupiter", "Venus"],
+    "correct": 1,
+    "category": "Science"
+  },
+  {
+    "id": 2,
+    "question": "Who wrote 'Hamlet'?",
+    "options": [
+      "Charles Dickens",
+      "William Shakespeare",
+      "Jane Austen",
+      "Mark Twain"
+    ],
+    "correct": 1,
+    "category": "Literature"
+  },
+  {
+    "id": 3,
+    "question": "What is the currency of Japan?",
+    "options": ["Yuan", "Won", "Yen", "Ringgit"],
+    "correct": 2,
+    "category": "Geography"
+  },
+  {
+    "id": 4,
+    "question": "Which year did World War II end?",
+    "options": ["1943", "1945", "1950", "1939"],
+    "correct": 1,
+    "category": "History"
+  },
+  {
+    "id": 5,
+    "question": "What is the main ingredient in guacamole?",
+    "options": ["Tomato", "Avocado", "Cucumber", "Lettuce"],
+    "correct": 1,
+    "category": "Food"
+  },
+  {
+    "id": 6,
+    "question": "What is the largest ocean on Earth?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean",
+      "Pacific Ocean"
+    ],
+    "correct": 3,
+    "category": "Geography"
+  },
+  {
+    "id": 7,
+    "question": "Who painted the Mona Lisa?",
+    "options": [
+      "Vincent van Gogh",
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Claude Monet"
+    ],
+    "correct": 2,
+    "category": "Art"
+  },
+  {
+    "id": 8,
+    "question": "What is the capital of Canada?",
+    "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+    "correct": 2,
+    "category": "Geography"
+  },
+  {
+    "id": 9,
+    "question": "Which element has the chemical symbol 'O'?",
+    "options": ["Oxygen", "Gold", "Osmium", "Oganesson"],
+    "correct": 0,
+    "category": "Science"
+  },
+  {
+    "id": 10,
+    "question": "Who developed the theory of relativity?",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Nikola Tesla"
+    ],
+    "correct": 1,
+    "category": "Science"
+  },
+  {
+    "id": 11,
+    "question": "Which is the smallest country in the world?",
+    "options": ["Monaco", "San Marino", "Vatican City", "Liechtenstein"],
+    "correct": 2,
+    "category": "Geography"
+  },
+  {
+    "id": 12,
+    "question": "Who invented the telephone?",
+    "options": [
+      "Alexander Graham Bell",
+      "Thomas Edison",
+      "Nikola Tesla",
+      "Guglielmo Marconi"
+    ],
+    "correct": 0,
+    "category": "History"
+  },
+  {
+    "id": 13,
+    "question": "Which language has the most native speakers?",
+    "options": ["English", "Spanish", "Mandarin", "Hindi"],
+    "correct": 2,
+    "category": "Language"
+  },
+  {
+    "id": 14,
+    "question": "What is the hardest natural substance on Earth?",
+    "options": ["Gold", "Iron", "Diamond", "Platinum"],
+    "correct": 2,
+    "category": "Science"
+  },
+  {
+    "id": 15,
+    "question": "Which company created the iPhone?",
+    "options": ["Microsoft", "Apple", "Samsung", "Google"],
+    "correct": 1,
+    "category": "Technology"
+  },
+  {
+    "id": 16,
+    "question": "Which sport is known as 'the beautiful game'?",
+    "options": ["Cricket", "Basketball", "Soccer", "Tennis"],
+    "correct": 2,
+    "category": "Sports"
+  },
+  {
+    "id": 17,
+    "question": "Who was the first person to walk on the moon?",
+    "options": [
+      "Buzz Aldrin",
+      "Neil Armstrong",
+      "Yuri Gagarin",
+      "Michael Collins"
+    ],
+    "correct": 1,
+    "category": "History"
+  },
+  {
+    "id": 18,
+    "question": "What is the tallest mountain in the world?",
+    "options": ["Mount Everest", "K2", "Kangchenjunga", "Makalu"],
+    "correct": 0,
+    "category": "Geography"
+  },
+  {
+    "id": 19,
+    "question": "Which Shakespeare play features the characters Rosencrantz and Guildenstern?",
+    "options": ["Macbeth", "Hamlet", "Othello", "King Lear"],
+    "correct": 1,
+    "category": "Literature"
+  },
+  {
+    "id": 20,
+    "question": "What is the largest planet in the solar system?",
+    "options": ["Earth", "Saturn", "Jupiter", "Neptune"],
+    "correct": 2,
+    "category": "Science"
+  },
+  {
+    "id": 21,
+    "question": "Who discovered penicillin?",
+    "options": [
+      "Marie Curie",
+      "Alexander Fleming",
+      "Louis Pasteur",
+      "Joseph Lister"
+    ],
+    "correct": 1,
+    "category": "Science"
+  },
+  {
+    "id": 22,
+    "question": "Which country won the first ever FIFA World Cup in 1930?",
+    "options": ["Brazil", "Argentina", "Germany", "Uruguay"],
+    "correct": 3,
+    "category": "Sports"
+  },
+  {
+    "id": 23,
+    "question": "What is the name of the fairy in Peter Pan?",
+    "options": ["Tinker Bell", "Wendy", "Pixie Dust", "Fairy Godmother"],
+    "correct": 0,
+    "category": "Literature"
+  },
+  {
+    "id": 24,
+    "question": "How many continents are there on Earth?",
+    "options": ["5", "6", "7", "8"],
+    "correct": 2,
+    "category": "Geography"
+  },
+  {
+    "id": 25,
+    "question": "Which gas do plants primarily use for photosynthesis?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    "correct": 1,
+    "category": "Science"
+  },
+  {
+    "id": 26,
+    "question": "What is the chemical symbol for gold?",
+    "options": ["Ag", "Au", "Pb", "Fe"],
+    "correct": 1,
+    "category": "Science"
+  },
+  {
+    "id": 27,
+    "question": "Which continent is the Sahara Desert located in?",
+    "options": ["Asia", "South America", "Africa", "Australia"],
+    "correct": 2,
+    "category": "Geography"
+  },
+  {
+    "id": 28,
+    "question": "Who wrote '1984'?",
+    "options": [
+      "George Orwell",
+      "Aldous Huxley",
+      "Mark Twain",
+      "Ernest Hemingway"
+    ],
+    "correct": 0,
+    "category": "Literature"
+  },
+  {
+    "id": 29,
+    "question": "Which country has won the most FIFA World Cups?",
+    "options": ["Germany", "Brazil", "Italy", "Argentina"],
+    "correct": 1,
+    "category": "Sports"
+  },
+  {
+    "id": 30,
+    "question": "Who was the first President of the United States?",
+    "options": [
+      "Thomas Jefferson",
+      "George Washington",
+      "Abraham Lincoln",
+      "John Adams"
+    ],
+    "correct": 1,
+    "category": "History"
+  },
+  {
+    "id": 31,
+    "question": "What does 'CPU' stand for?",
+    "options": [
+      "Central Processing Unit",
+      "Computer Power Unit",
+      "Core Processing Unit",
+      "Central Performance Unit"
+    ],
+    "correct": 0,
+    "category": "Technology"
+  },
+  {
+    "id": 32,
+    "question": "Which language is the most widely spoken in South America?",
+    "options": ["Portuguese", "Spanish", "French", "English"],
+    "correct": 1,
+    "category": "Language"
+  },
+  {
+    "id": 33,
+    "question": "Who painted 'Starry Night'?",
+    "options": [
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Vincent van Gogh",
+      "Claude Monet"
+    ],
+    "correct": 2,
+    "category": "Art"
+  },
+  {
+    "id": 34,
+    "question": "What is the main ingredient in sushi?",
+    "options": ["Rice", "Noodles", "Fish", "Seaweed"],
+    "correct": 0,
+    "category": "Food"
+  },
+  {
+    "id": 35,
+    "question": "What is the powerhouse of the cell?",
+    "options": ["Nucleus", "Mitochondria", "Ribosome", "Endoplasmic Reticulum"],
+    "correct": 1,
+    "category": "Science"
+  },
+  {
+    "id": 36,
+    "question": "What is the longest river in the world?",
+    "options": [
+      "Amazon River",
+      "Nile River",
+      "Yangtze River",
+      "Mississippi River"
+    ],
+    "correct": 1,
+    "category": "Geography"
+  },
+  {
+    "id": 37,
+    "question": "Who wrote 'Pride and Prejudice'?",
+    "options": [
+      "Charlotte Brontë",
+      "Emily Dickinson",
+      "Jane Austen",
+      "Virginia Woolf"
+    ],
+    "correct": 2,
+    "category": "Literature"
+  },
+  {
+    "id": 38,
+    "question": "What is the only sport to be played on the moon?",
+    "options": ["Tennis", "Golf", "Basketball", "Soccer"],
+    "correct": 1,
+    "category": "Sports"
+  },
+  {
+    "id": 39,
+    "question": "Which year did the Titanic sink?",
+    "options": ["1912", "1905", "1898", "1923"],
+    "correct": 0,
+    "category": "History"
+  },
+  {
+    "id": 40,
+    "question": "Which company developed the first commercially successful personal computer?",
+    "options": ["Microsoft", "Apple", "IBM", "Intel"],
+    "correct": 2,
+    "category": "Technology"
+  },
+  {
+    "id": 41,
+    "question": "Which language has the longest alphabet?",
+    "options": ["Greek", "Russian", "Khmer", "Hebrew"],
+    "correct": 2,
+    "category": "Language"
+  },
+  {
+    "id": 42,
+    "question": "Which artist is famous for the 'Campbell's Soup Cans' artwork?",
+    "options": [
+      "Andy Warhol",
+      "Salvador Dalí",
+      "Pablo Picasso",
+      "Jackson Pollock"
+    ],
+    "correct": 0,
+    "category": "Art"
+  },
+  {
+    "id": 43,
+    "question": "Which country is famous for the dish 'Paella'?",
+    "options": ["Italy", "Spain", "France", "Portugal"],
+    "correct": 1,
+    "category": "Food"
+  },
+  {
+    "id": 44,
+    "question": "What is the atomic number of hydrogen?",
+    "options": ["1", "2", "8", "10"],
+    "correct": 0,
+    "category": "Science"
+  },
+  {
+    "id": 45,
+    "question": "What is the largest desert in the world?",
+    "options": ["Sahara", "Gobi", "Antarctic Desert", "Kalahari"],
+    "correct": 2,
+    "category": "Geography"
+  },
+  {
+    "id": 46,
+    "question": "Which gas makes up the majority of Earth's atmosphere?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Argon"],
+    "correct": 2,
+    "category": "Science"
+  },
+  {
+    "id": 47,
+    "question": "Which country has the most natural lakes?",
+    "options": ["Canada", "Russia", "USA", "China"],
+    "correct": 0,
+    "category": "Geography"
+  },
+  {
+    "id": 48,
+    "question": "Who wrote 'The Great Gatsby'?",
+    "options": [
+      "Ernest Hemingway",
+      "F. Scott Fitzgerald",
+      "Mark Twain",
+      "John Steinbeck"
+    ],
+    "correct": 1,
+    "category": "Literature"
+  },
+  {
+    "id": 49,
+    "question": "How many players are there in a standard soccer team?",
+    "options": ["9", "10", "11", "12"],
+    "correct": 2,
+    "category": "Sports"
+  },
+  {
+    "id": 50,
+    "question": "Who was the first human to journey into space?",
+    "options": [
+      "Neil Armstrong",
+      "Buzz Aldrin",
+      "Yuri Gagarin",
+      "Alan Shepard"
+    ],
+    "correct": 2,
+    "category": "History"
+  },
+  {
+    "id": 51,
+    "question": "What does 'HTTP' stand for in website addresses?",
+    "options": [
+      "HyperText Transfer Protocol",
+      "Hyperlink Transfer Process",
+      "High Technology Text Processing",
+      "Hyper Transfer Text Protocol"
+    ],
+    "correct": 0,
+    "category": "Technology"
+  },
+  {
+    "id": 52,
+    "question": "What is the official language of Brazil?",
+    "options": ["Spanish", "Portuguese", "French", "English"],
+    "correct": 1,
+    "category": "Language"
+  },
+  {
+    "id": 53,
+    "question": "Who painted the ceiling of the Sistine Chapel?",
+    "options": ["Leonardo da Vinci", "Raphael", "Michelangelo", "Donatello"],
+    "correct": 2,
+    "category": "Art"
+  },
+  {
+    "id": 54,
+    "question": "Which fruit is the main ingredient in a traditional Greek salad?",
+    "options": ["Tomato", "Cucumber", "Olive", "Lettuce"],
+    "correct": 0,
+    "category": "Food"
+  },
+  {
+    "id": 55,
+    "question": "Which planet is the hottest in the solar system?",
+    "options": ["Mercury", "Venus", "Mars", "Jupiter"],
+    "correct": 1,
+    "category": "Science"
+  },
+  {
+    "id": 56,
+    "question": "Which country is home to the Great Barrier Reef?",
+    "options": ["Australia", "USA", "Brazil", "Indonesia"],
+    "correct": 0,
+    "category": "Geography"
+  },
+  {
+    "id": 57,
+    "question": "Who wrote 'To Kill a Mockingbird'?",
+    "options": [
+      "J.K. Rowling",
+      "Harper Lee",
+      "Jane Austen",
+      "F. Scott Fitzgerald"
+    ],
+    "correct": 1,
+    "category": "Literature"
+  },
+  {
+    "id": 58,
+    "question": "What is the national sport of Canada?",
+    "options": ["Ice Hockey", "Lacrosse", "Basketball", "Baseball"],
+    "correct": 1,
+    "category": "Sports"
+  },
+  {
+    "id": 59,
+    "question": "Who was the longest-serving British monarch?",
+    "options": [
+      "Queen Elizabeth I",
+      "Queen Victoria",
+      "Queen Elizabeth II",
+      "King George V"
+    ],
+    "correct": 2,
+    "category": "History"
+  },
+  {
+    "id": 60,
+    "question": "Which company developed the Windows operating system?",
+    "options": ["Apple", "IBM", "Microsoft", "Google"],
+    "correct": 2,
+    "category": "Technology"
+  },
+  {
+    "id": 61,
+    "question": "Which country has the most official languages?",
+    "options": ["India", "Switzerland", "South Africa", "Papua New Guinea"],
+    "correct": 3,
+    "category": "Language"
+  },
+  {
+    "id": 62,
+    "question": "Which artist is famous for the painting 'The Persistence of Memory'?",
+    "options": [
+      "Salvador Dalí",
+      "Pablo Picasso",
+      "Claude Monet",
+      "Andy Warhol"
+    ],
+    "correct": 0,
+    "category": "Art"
+  },
+  {
+    "id": 63,
+    "question": "Which country is famous for its traditional sushi?",
+    "options": ["China", "Japan", "South Korea", "Thailand"],
+    "correct": 1,
+    "category": "Food"
+  },
+  {
+    "id": 64,
+    "question": "Which type of blood is known as the universal donor?",
+    "options": ["A", "B", "O", "AB"],
+    "correct": 2,
+    "category": "Science"
+  },
+  {
+    "id": 65,
+    "question": "What is the capital city of Argentina?",
+    "options": ["Santiago", "Buenos Aires", "Lima", "Bogotá"],
+    "correct": 1,
+    "category": "Geography"
+  },
+  {
+    "id": 66,
+    "question": "What is the chemical symbol for oxygen?",
+    "options": ["O", "O2", "Ox", "Om"],
+    "correct": 0,
+    "category": "Science"
+  },
+  {
+    "id": 67,
+    "question": "What is the capital of Canada?",
+    "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+    "correct": 2,
+    "category": "Geography"
+  },
+  {
+    "id": 68,
+    "question": "Who wrote 'Moby-Dick'?",
+    "options": [
+      "Herman Melville",
+      "Jules Verne",
+      "Charles Dickens",
+      "Mark Twain"
+    ],
+    "correct": 0,
+    "category": "Literature"
+  },
+  {
+    "id": 69,
+    "question": "Which country hosted the 2016 Summer Olympics?",
+    "options": ["China", "USA", "Brazil", "UK"],
+    "correct": 2,
+    "category": "Sports"
+  },
+  {
+    "id": 70,
+    "question": "What year did World War II end?",
+    "options": ["1943", "1945", "1950", "1939"],
+    "correct": 1,
+    "category": "History"
+  },
+  {
+    "id": 71,
+    "question": "What does 'USB' stand for?",
+    "options": [
+      "Universal Serial Bus",
+      "United System Board",
+      "User Storage Base",
+      "Ultra Speed Band"
+    ],
+    "correct": 0,
+    "category": "Technology"
+  },
+  {
+    "id": 72,
+    "question": "What is the most widely spoken language in the world?",
+    "options": ["English", "Mandarin Chinese", "Spanish", "Hindi"],
+    "correct": 1,
+    "category": "Language"
+  },
+  {
+    "id": 73,
+    "question": "Who painted 'The Last Supper'?",
+    "options": [
+      "Vincent van Gogh",
+      "Leonardo da Vinci",
+      "Pablo Picasso",
+      "Michelangelo"
+    ],
+    "correct": 1,
+    "category": "Art"
+  },
+  {
+    "id": 74,
+    "question": "Which country is known for the dish 'Kimchi'?",
+    "options": ["Japan", "South Korea", "China", "Vietnam"],
+    "correct": 1,
+    "category": "Food"
+  },
+  {
+    "id": 75,
+    "question": "What is the hardest natural substance on Earth?",
+    "options": ["Iron", "Quartz", "Diamond", "Platinum"],
+    "correct": 2,
+    "category": "Science"
+  },
+  {
+    "id": 76,
+    "question": "Which ocean is the largest?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Arctic Ocean"
+    ],
+    "correct": 2,
+    "category": "Geography"
+  },
+  {
+    "id": 77,
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "options": [
+      "Charles Dickens",
+      "William Shakespeare",
+      "Jane Austen",
+      "George Orwell"
+    ],
+    "correct": 1,
+    "category": "Literature"
+  },
+  {
+    "id": 78,
+    "question": "How many rings are there on the Olympic flag?",
+    "options": ["4", "5", "6", "7"],
+    "correct": 1,
+    "category": "Sports"
+  },
+  {
+    "id": 79,
+    "question": "Which year did the Berlin Wall fall?",
+    "options": ["1985", "1989", "1991", "1995"],
+    "correct": 1,
+    "category": "History"
+  },
+  {
+    "id": 80,
+    "question": "Which company created the iPhone?",
+    "options": ["Microsoft", "Samsung", "Apple", "Google"],
+    "correct": 2,
+    "category": "Technology"
+  },
+  {
+    "id": 81,
+    "question": "What is the official language of Egypt?",
+    "options": ["English", "Arabic", "French", "Turkish"],
+    "correct": 1,
+    "category": "Language"
+  },
+  {
+    "id": 82,
+    "question": "Which artist painted 'Guernica'?",
+    "options": [
+      "Salvador Dalí",
+      "Pablo Picasso",
+      "Claude Monet",
+      "Edvard Munch"
+    ],
+    "correct": 1,
+    "category": "Art"
+  },
+  {
+    "id": 83,
+    "question": "Which ingredient is the primary component of traditional Italian pasta?",
+    "options": ["Rice", "Flour", "Corn", "Potatoes"],
+    "correct": 1,
+    "category": "Food"
+  },
+  {
+    "id": 84,
+    "question": "Which gas do plants primarily absorb from the atmosphere?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    "correct": 1,
+    "category": "Science"
+  },
+  {
+    "id": 85,
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "options": ["China", "South Korea", "Japan", "Vietnam"],
+    "correct": 2,
+    "category": "Geography"
+  },
+  {
+    "id": 86,
+    "question": "What is the powerhouse of the cell?",
+    "options": ["Nucleus", "Mitochondria", "Ribosome", "Chloroplast"],
+    "correct": 1,
+    "category": "Science"
+  },
+  {
+    "id": 87,
+    "question": "Which desert is the largest in the world?",
+    "options": ["Sahara", "Gobi", "Antarctic Desert", "Kalahari"],
+    "correct": 2,
+    "category": "Geography"
+  },
+  {
+    "id": 88,
+    "question": "Who wrote 'Pride and Prejudice'?",
+    "options": [
+      "Emily Brontë",
+      "Jane Austen",
+      "Virginia Woolf",
+      "Charlotte Brontë"
+    ],
+    "correct": 1,
+    "category": "Literature"
+  },
+  {
+    "id": 89,
+    "question": "How many points is a touchdown worth in American football?",
+    "options": ["3", "5", "6", "7"],
+    "correct": 2,
+    "category": "Sports"
+  },
+  {
+    "id": 90,
+    "question": "Who was the first President of the United States?",
+    "options": [
+      "John Adams",
+      "George Washington",
+      "Thomas Jefferson",
+      "Abraham Lincoln"
+    ],
+    "correct": 1,
+    "category": "History"
+  },
+  {
+    "id": 91,
+    "question": "Which programming language is commonly used for web development?",
+    "options": ["Python", "Java", "C++", "JavaScript"],
+    "correct": 3,
+    "category": "Technology"
+  },
+  {
+    "id": 92,
+    "question": "What is the most commonly spoken language in South America?",
+    "options": ["Portuguese", "Spanish", "French", "English"],
+    "correct": 1,
+    "category": "Language"
+  },
+  {
+    "id": 93,
+    "question": "Which artist is famous for painting 'Starry Night'?",
+    "options": [
+      "Claude Monet",
+      "Pablo Picasso",
+      "Vincent van Gogh",
+      "Leonardo da Vinci"
+    ],
+    "correct": 2,
+    "category": "Art"
+  },
+  {
+    "id": 94,
+    "question": "What is the main ingredient in traditional miso soup?",
+    "options": ["Soybeans", "Rice", "Noodles", "Seaweed"],
+    "correct": 0,
+    "category": "Food"
+  },
+  {
+    "id": 95,
+    "question": "What type of blood cells help fight infections in the human body?",
+    "options": ["Red blood cells", "Platelets", "White blood cells", "Plasma"],
+    "correct": 2,
+    "category": "Science"
+  },
+  {
+    "id": 96,
+    "question": "Which continent has the most countries?",
+    "options": ["Asia", "Europe", "Africa", "South America"],
+    "correct": 2,
+    "category": "Geography"
+  },
+  {
+    "id": 97,
+    "question": "Who wrote 'The Catcher in the Rye'?",
+    "options": [
+      "J.D. Salinger",
+      "Ernest Hemingway",
+      "Harper Lee",
+      "F. Scott Fitzgerald"
+    ],
+    "correct": 0,
+    "category": "Literature"
+  },
+  {
+    "id": 98,
+    "question": "Which country won the FIFA World Cup in 2018?",
+    "options": ["Germany", "Brazil", "France", "Argentina"],
+    "correct": 2,
+    "category": "Sports"
+  },
+  {
+    "id": 99,
+    "question": "Which war was primarily fought between the North and South regions of the United States?",
+    "options": ["Revolutionary War", "World War I", "Civil War", "Vietnam War"],
+    "correct": 2,
+    "category": "History"
+  },
+  {
+    "id": 100,
+    "question": "What does 'CPU' stand for in computing?",
+    "options": [
+      "Central Processing Unit",
+      "Computer Processing Utility",
+      "Core Processing Unit",
+      "Central Power Unit"
+    ],
+    "correct": 0,
+    "category": "Technology"
+  }
+]

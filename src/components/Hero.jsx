@@ -1,5 +1,6 @@
 import Container from "./shared/Container";
 import heroImage from "../assets/Online test-pana.svg";
+import { Link } from "react-router";
 
 const Hero = () => {
   return (
@@ -15,7 +16,25 @@ const Hero = () => {
               pariatur debitis fuga illum temporibus provident non facilis vitae
               voluptatibus fugiat!
             </p>
-            <button className="btn bg-[#DB4B86] mt-4">Satrt Quiz!</button>
+            <div className="flex flex-col lg:flex-row gap-2 mt-3">
+              <input
+                type="number"
+                name=""
+                id=""
+                className="rounded-sm px-3 py-2 bg-[#14000f] border-none w-full"
+                placeholder="Question limit 100"
+              />
+              <input
+                type="number"
+                name=""
+                id=""
+                className="rounded-sm px-3 py-2 bg-[#14000f] border-none w-full"
+                placeholder="Set time in second "
+              />
+            </div>
+            <Link to="/quiz">
+              <button className="btn bg-[#DB4B86] mt-4">Satrt Quiz!</button>
+            </Link>
           </div>
           <div className="flex justify-center md:justify-end">
             <img

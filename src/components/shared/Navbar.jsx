@@ -58,6 +58,18 @@ const Navbar = () => {
               isActive ? "text-[#db4b86] font-bold" : "text-[#14000f]"
             }`
           }
+          to="/quiz"
+        >
+          Quiz
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          className={({ isActive }) =>
+            `hover:text-[#db4b86] ${
+              isActive ? "text-[#db4b86] font-bold" : "text-[#14000f]"
+            }`
+          }
           to="/t"
         >
           Tutorials
@@ -72,7 +84,7 @@ const Navbar = () => {
         <NavLink
           className={({ isActive }) =>
             `hover:text-[#db4b86] ${
-              isActive ? "text-[#db4b86] font-bold" : "text-[#14000f]"
+              isActive ? "text-[#db4b86] font-bold" : "text-white"
             }`
           }
           onClick={() => setIsOpen(false)}
@@ -85,7 +97,7 @@ const Navbar = () => {
         <NavLink
           className={({ isActive }) =>
             `hover:text-[#db4b86] ${
-              isActive ? "text-[#db4b86] font-bold" : "text-[#14000f]"
+              isActive ? "text-[#db4b86] font-bold" : "text-white"
             }`
           }
           onClick={() => setIsOpen(false)}
@@ -94,15 +106,18 @@ const Navbar = () => {
           About
         </NavLink>
       </li>
-
       <li>
-        <a
-          href="https://drive.google.com/file/d/1PFXraJNWyzpTFun3tzu1ZarCrqr9hY8j/view?usp=sharing"
-          target="_blank"
-          className="btn btn-outline rounded-none text-[#db4b86] hover:bg-[#db4b86]"
+        <NavLink
+          className={({ isActive }) =>
+            `hover:text-[#db4b86] ${
+              isActive ? "text-[#db4b86] font-bold" : "text-white"
+            }`
+          }
+          onClick={() => setIsOpen(false)}
+          to="/quiz"
         >
-          Download Resume <FaDownload />
-        </a>
+          Quiz
+        </NavLink>
       </li>
     </>
   );
@@ -128,12 +143,12 @@ const Navbar = () => {
 
           {/* Download Resume Button */}
           <div className="navbar-end flex flex-row">
-            <div className="">
+            <div className="hidden lg:inline-block">
               <ul className="menu menu-horizontal px-1">{links}</ul>
             </div>
 
-            <div className="md:hidden">
-              <Hamburger toggled={isOpen} toggle={setIsOpen} color="#d2ab69" />
+            <div className="lg:hidden">
+              <Hamburger toggled={isOpen} toggle={setIsOpen} color="#db4b86" />
             </div>
           </div>
 
@@ -149,7 +164,7 @@ const Navbar = () => {
               {/* Close Button */}
               <button
                 onClick={() => setIsOpen(false)}
-                className="absolute top-5 right-5 text-white hover:text-[#d2ab69]"
+                className="absolute top-5 right-5 text-white hover:text-[#db4b86]"
               >
                 <X size={40} />
               </button>

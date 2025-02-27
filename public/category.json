@@ -1,0 +1,13 @@
+{
+  "categories": [
+    { "id": 1, "name": "Science" },
+    { "id": 2, "name": "Geography" },
+    { "id": 3, "name": "Literature" },
+    { "id": 4, "name": "Sports" },
+    { "id": 5, "name": "History" },
+    { "id": 6, "name": "Technology" },
+    { "id": 7, "name": "Language" },
+    { "id": 8, "name": "Art" },
+    { "id": 9, "name": "Food" }
+  ]
+}
