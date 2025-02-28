@@ -179,9 +179,9 @@ const Navbar = () => {
                   checked={theme === "light" ? false : true}
                 />
                 {/* dark theme moon image */}
-                <FaMoon className="w-8 h-8 swap-off"></FaMoon>
+                <FaMoon className="w-6 h-6 swap-off"></FaMoon>
                 {/* light theme sun image */}
-                <FaSun className="w-8 h-8 swap-on text-zinc-800 "></FaSun>
+                <FaSun className="w-6 h-6 swap-on text-zinc-800 "></FaSun>
               </label>
             </button>
 

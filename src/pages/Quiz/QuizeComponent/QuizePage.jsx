@@ -89,7 +89,7 @@ const QuizPage = () => {
       <Container>
         <div
           id="questions"
-          className="flex flex-col items-center justify-between shadow-sm w-7/12 mx-auto py-"
+          className="flex flex-col items-center justify-between py-4"
         >
           <div className="question mb-8">
             <h2 className="text-2xl font-bold mb-4">
