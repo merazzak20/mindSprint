@@ -49,6 +49,7 @@ const Quiz = () => {
                   id="maxLimit"
                   min={1}
                   max={100}
+                  required
                   onChange={(e) =>
                     setFormData({ ...formData, question: e.target.value })
                   }
@@ -63,6 +64,7 @@ const Quiz = () => {
                   name="setTime"
                   id="setTime"
                   min={1}
+                  required
                   onChange={(e) =>
                     setFormData({ ...formData, time: e.target.value })
                   }
