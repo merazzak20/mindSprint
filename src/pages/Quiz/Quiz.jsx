@@ -1,9 +1,10 @@
 import { useState } from "react";
-import Container from "../../components/shared/container";
+import Container from "../../components/shared/Container";
 import { useEffect } from "react";
 import { Link } from "react-router";
 import bg from "../../assets/student.jpeg";
 import QuizRules from "./QuizeComponent/QuizRules";
+import { FaClock, FaQuestion } from "react-icons/fa";
 
 const Quiz = () => {
   const [quizs, setQuizs] = useState([]);
@@ -26,30 +27,40 @@ const Quiz = () => {
         }}
         className="bg-pink-200"
       >
-        <div className="py-32 w-8/12 mx-auto text-center ">
-          <div className="flex flex-col lg:flex-row gap-2 mt-3">
-            <input
-              type="number"
-              name=""
-              id=""
-              className="rounded-sm px-3 py-2 text-white bg-[#14000f] border-none w-full"
-              placeholder="Question limit 100"
-            />
-            <input
-              type="number"
-              name=""
-              id=""
-              className="rounded-sm px-3 py-2 text-white bg-[#14000f] border-none w-full"
-              placeholder="Set time in second "
-            />
+        <div className="py-32 w-11/12 lg:w-8/12 mx-auto text-center">
+          <div className="flex flex-col lg:flex-row gap-2 mt-3 justify-center items-center">
+            <label className="input flex items-center">
+              <input
+                type="number"
+                name=""
+                id=""
+                min={1}
+                max={100}
+                className="rounded-sm border-none w-full"
+                placeholder="Max limit 100"
+              />
+              <FaQuestion className="ml-2" />
+            </label>
+            <label className="input flex items-center">
+              <input
+                type="number"
+                name=""
+                id=""
+                min={1}
+                className="rounded-sm border-none w-full"
+                placeholder="Set time in seconds"
+              />
+              <FaClock className="ml-2" />
+            </label>
           </div>
           <Link to="/quiz">
             <button className="btn bg-[#DB4B86] mt-4 border-none">
-              Satrt Quiz!
+              Start Quiz!
             </button>
           </Link>
         </div>
       </div>
+
       <Container>
         <QuizRules></QuizRules>
       </Container>

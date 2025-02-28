@@ -1,6 +1,7 @@
 import Container from "./shared/Container";
 import heroImage from "../assets/Online test-pana.svg";
 import { Link } from "react-router";
+import { FaClock, FaQuestion } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -17,20 +18,29 @@ const Hero = () => {
               voluptatibus fugiat!
             </p>
             <div className="flex flex-col lg:flex-row gap-2 mt-3">
-              <input
-                type="number"
-                name=""
-                id=""
-                className="rounded-sm px-3 py-2 text-white bg-[#14000f] border-none w-full"
-                placeholder="Question limit 100"
-              />
-              <input
-                type="number"
-                name=""
-                id=""
-                className="rounded-sm px-3 py-2 text-white bg-[#14000f] border-none w-full"
-                placeholder="Set time in second "
-              />
+              <label className="input">
+                <input
+                  type="number"
+                  name=""
+                  id=""
+                  min={1}
+                  max={100}
+                  className="rounded-sm border-none w-full"
+                  placeholder="Max limit 100"
+                />
+                <FaQuestion></FaQuestion>
+              </label>
+              <label className="input">
+                <input
+                  type="number"
+                  name=""
+                  id=""
+                  min={1}
+                  className="rounded-sm border-none w-full"
+                  placeholder="Set time in second "
+                />
+                <FaClock></FaClock>
+              </label>
             </div>
             <Link to="/quiz">
               <button className="btn bg-[#DB4B86] text-white mt-4">
