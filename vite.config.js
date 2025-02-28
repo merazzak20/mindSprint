@@ -8,4 +8,10 @@ export default defineConfig({
   build: {
     outDir: "dist",
   },
+  theme: {
+    extend: {},
+  },
+  daisyui: {
+    themes: ["light", "dark"],
+  },
 });
