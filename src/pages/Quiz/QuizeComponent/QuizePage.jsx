@@ -1,6 +1,8 @@
 import { useEffect, useState, useRef } from "react";
-import { useLocation } from "react-router";
+import { Link, useLocation } from "react-router";
 import Container from "../../../components/shared/Container";
+import { FaClock } from "react-icons/fa";
+import { MdOutlineTimer } from "react-icons/md";
 
 const QuizPage = () => {
   const location = useLocation();
@@ -15,14 +17,29 @@ const QuizPage = () => {
 
   useEffect(() => {
     const queryParams = new URLSearchParams(location.search);
-    const questionCount = queryParams.get("questions");
-    const time = queryParams.get("time");
+    const questionCount = parseInt(queryParams.get("questions"), 10);
+    const time = parseInt(queryParams.get("time"), 10);
 
-    // Fetch the questions based on the questionCount
     fetch("quize.json")
       .then((res) => res.json())
       .then((data) => {
-        setQuestions(data.slice(0, questionCount));
+        if (data.length < questionCount) {
+          console.error("Not enough questions available");
+          return;
+        }
+
+        // Generate unique random indices
+        const indices = new Set();
+        while (indices.size < questionCount) {
+          indices.add(Math.floor(Math.random() * data.length));
+        }
+
+        // Select unique questions
+        const selectedQuestions = Array.from(indices).map(
+          (index) => data[index]
+        );
+
+        setQuestions(selectedQuestions);
         setTimeLeft(time);
       });
   }, [location.search]);
@@ -112,8 +129,17 @@ const QuizPage = () => {
             </div>
           </div>
           <div className="mx-auto text-center">
-            <div className="timer text-xl mb-4">
-              Time left: {timeLeft} seconds
+            <div className="flex justify-between gap-10">
+              <div className="timer text-xl mb-4 flex items-center gap-2">
+                <MdOutlineTimer className="text-[#DB4B86]" /> {timeLeft} seconds
+              </div>
+              <div className="question-counter text-lg mb-4 font-semibold">
+                Question:{" "}
+                <span className="text-[#DB4B86]">
+                  {currentQuestionIndex + 1}
+                </span>{" "}
+                / {questions.length}
+              </div>
             </div>
             <button
               onClick={handleNextQuestion}
@@ -164,6 +190,11 @@ const QuizPage = () => {
               </div>
             ))}
           </div>
+          <Link to="/quiz" className="mt-5">
+            <button className="btn bg-[#DB4B86] mt-4 border-none text-white">
+              Try Again!
+            </button>
+          </Link>
         </div>
       )}
     </div>

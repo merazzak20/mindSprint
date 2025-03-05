@@ -74,7 +74,10 @@ const Quiz = () => {
                 <FaClock className="ml-2" />
               </label>
             </div>
-            <button type="submit" className="btn bg-[#DB4B86] mt-4 border-none">
+            <button
+              type="submit"
+              className="btn bg-[#DB4B86] mt-4 border-none text-white shadow-none"
+            >
               Start Quiz!
             </button>
           </form>
