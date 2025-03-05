@@ -61,7 +61,7 @@ const Hero = () => {
                       setFormData({ ...formData, time: e.target.value })
                     }
                     className="rounded-sm border-none w-full"
-                    placeholder="Set time in second "
+                    placeholder="Set time in minutes "
                   />
                   <MdOutlineTimer className="text-xl" />
                 </label>
