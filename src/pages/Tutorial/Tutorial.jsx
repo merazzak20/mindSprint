@@ -55,7 +55,7 @@ const Tutorial = () => {
   return (
     <div className="p-4 mx-auto my-28">
       <Container>
-        <h1 className="text-3xl font-bold text-center mb-6 text-[#DB4B86]">
+        <h1 className="text-3xl font-bold text-center mb-10 text-[#DB4B86]">
           Tutorials & Study Guide
         </h1>
 
