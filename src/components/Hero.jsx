@@ -1,8 +1,9 @@
 import Container from "./shared/Container";
 import heroImage from "../assets/Online test-pana.svg";
-import { FaClock, FaQuestion } from "react-icons/fa";
+import { FaClock } from "react-icons/fa";
 import { useNavigate } from "react-router";
 import { useState } from "react";
+import { MdOutlineQuiz, MdOutlineTimer } from "react-icons/md";
 
 const Hero = () => {
   const [formData, setFormData] = useState({ question: "", time: "" });
@@ -20,12 +21,13 @@ const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 items-center text-center md:text-left gap-8">
           <div className="flex flex-col items-center md:items-start">
             <h1 className="text-2xl md:text-5xl font-bold">
-              Lorem ipsum dolor sit amet.
+              Boost Your Knowledge with{" "}
+              <span className="text-[#DB4B86]">MindSprint!</span>
             </h1>
             <p className="mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-              pariatur debitis fuga illum temporibus provident non facilis vitae
-              voluptatibus fugiat!
+              Challenge yourself with engaging quizzes and put your knowledge to
+              the test! Set custom timers, choose your question limit, and
+              sprint through exciting trivia.
             </p>
             <div>
               <form
@@ -45,7 +47,7 @@ const Hero = () => {
                     className="rounded-sm border-none w-full"
                     placeholder="Max limit 100"
                   />
-                  <FaQuestion></FaQuestion>
+                  <MdOutlineQuiz className="text-xl" />
                 </label>
                 <label className="input">
                   <input
@@ -59,7 +61,7 @@ const Hero = () => {
                     className="rounded-sm border-none w-full"
                     placeholder="Set time in second "
                   />
-                  <FaClock></FaClock>
+                  <MdOutlineTimer className="text-xl" />
                 </label>
               </form>
               <div onClick={handleQuiz}>

@@ -92,7 +92,7 @@ const Navbar = () => {
               isActive ? "text-[#db4b86] font-bold" : "text-[#14000f]"
             }`
           }
-          to="/t"
+          to="/tutorial"
         >
           Tutorials
         </NavLink>
@@ -139,6 +139,19 @@ const Navbar = () => {
           to="/quiz"
         >
           Quiz
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          className={({ isActive }) =>
+            `hover:text-[#db4b86] ${
+              isActive ? "text-[#db4b86] font-bold" : "text-white"
+            }`
+          }
+          onClick={() => setIsOpen(false)}
+          to="/tutorial"
+        >
+          Tutorials
         </NavLink>
       </li>
     </>

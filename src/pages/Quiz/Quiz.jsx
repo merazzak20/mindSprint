@@ -4,8 +4,9 @@ import { useEffect } from "react";
 // import { Link } from "react-router";
 import bg from "../../assets/student1.jpg";
 import QuizRules from "./QuizeComponent/QuizRules";
-import { FaClock, FaQuestion } from "react-icons/fa";
+// import { FaClock, FaQuestion } from "react-icons/fa";
 import { useNavigate } from "react-router";
+import { MdOutlineQuiz, MdOutlineTimer } from "react-icons/md";
 
 const Quiz = () => {
   const [quizs, setQuizs] = useState([]);
@@ -56,7 +57,7 @@ const Quiz = () => {
                   className="rounded-sm border-none w-full"
                   placeholder="Max limit 100"
                 />
-                <FaQuestion className="ml-2" />
+                <MdOutlineQuiz className="ml-2 text-xl" />
               </label>
               <label className="input flex items-center">
                 <input
@@ -71,7 +72,7 @@ const Quiz = () => {
                   className="rounded-sm border-none w-full"
                   placeholder="Set time in minutes"
                 />
-                <FaClock className="ml-2" />
+                <MdOutlineTimer className="ml-2 text-xl" />
               </label>
             </div>
             <button
