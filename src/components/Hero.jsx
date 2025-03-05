@@ -32,7 +32,7 @@ const Hero = () => {
             <div>
               <form
                 onSubmit={handleQuiz}
-                className="flex flex-col lg:flex-row gap-2 mt-3"
+                className="flex flex-col lg:flex-row gap-2 mt-3 items-stretch"
               >
                 <label className="input">
                   <input
@@ -41,6 +41,7 @@ const Hero = () => {
                     id=""
                     min={1}
                     max={100}
+                    required
                     onChange={(e) =>
                       setFormData({ ...formData, question: e.target.value })
                     }
@@ -55,6 +56,7 @@ const Hero = () => {
                     name=""
                     id=""
                     min={1}
+                    required
                     onChange={(e) =>
                       setFormData({ ...formData, time: e.target.value })
                     }
@@ -63,15 +65,10 @@ const Hero = () => {
                   />
                   <MdOutlineTimer className="text-xl" />
                 </label>
-              </form>
-              <div onClick={handleQuiz}>
-                <button
-                  type="submit"
-                  className="btn bg-[#DB4B86] text-white mt-4"
-                >
+                <button type="submit" className="btn bg-[#DB4B86] text-white">
                   Satrt Quiz!
                 </button>
-              </div>
+              </form>
             </div>
           </div>
           <div className="flex justify-center md:justify-end">
