@@ -14,6 +14,8 @@ const QuizPage = () => {
   const [showCorrectAnswers, setShowCorrectAnswers] = useState(false);
   const [quizCompleted, setQuizCompleted] = useState(false);
   const modalRef = useRef(null);
+  const queryParams = new URLSearchParams(location.search);
+    const time = parseInt(queryParams.get("time"), 10);
 
   useEffect(() => {
     const queryParams = new URLSearchParams(location.search);
@@ -154,7 +156,7 @@ const QuizPage = () => {
 
       <dialog ref={modalRef} id="my_modal_1" className="modal">
         <div className="modal-box">
-          {quizCompleted? <h3 className="font-bold text-lg">Complete</h3>: <h3 className="font-bold text-lg">Time's up!</h3>}
+          {quizCompleted? <h3 className="font-bold text-lg">Complete - <span className="font-semibold">You Took {time - timeLeft} Seconds</span></h3>: <h3 className="font-bold text-lg">Time's up!</h3>}
           <p className="py-4 text-[#DB4B86] text-2xl font-bold">
             Your score is {score}
           </p>
