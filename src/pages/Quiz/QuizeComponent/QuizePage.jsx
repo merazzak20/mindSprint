@@ -154,7 +154,7 @@ const QuizPage = () => {
 
       <dialog ref={modalRef} id="my_modal_1" className="modal">
         <div className="modal-box">
-          <h3 className="font-bold text-lg">Time's up!</h3>
+          {quizCompleted? <h3 className="font-bold text-lg">Complete</h3>: <h3 className="font-bold text-lg">Time's up!</h3>}
           <p className="py-4 text-[#DB4B86] text-2xl font-bold">
             Your score is {score}
           </p>
