@@ -4,11 +4,11 @@ MindSprint is a fun and engaging quiz application built using **React and Tailwi
 
 ## 🌍 Live Demo  
 
-🔗 **Live Link:** [MindSprint]([https://your-live-link.com](https://mind-sprint-pi.vercel.app/))  
+🔗 **Live Link:** [MindSprint](https://mind-sprint-pi.vercel.app/)
 
 ## 📷 Screenshots  
 
-![MindSprint Screenshot]([https://your-image-url.com/screenshot.png](https://i.ibb.co.com/cKKWFvPC/Screenshot-2025-03-08-142314.png))  
+![MindSprint Screenshot](https://i.ibb.co.com/cKKWFvPC/Screenshot-2025-03-08-142314.png)
 
 ## 🌟 Features
 
