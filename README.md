@@ -8,7 +8,7 @@ MindSprint is a fun and engaging quiz application built using **React and Tailwi
 
 ## 📷 Screenshots  
 
-![MindSprint Screenshot](https://i.ibb.co.com/cKKWFvPC/Screenshot-2025-03-08-142314.png)
+![MindSprint Home UI](https://i.ibb.co.com/cKKWFvPC/Screenshot-2025-03-08-142314.png)
 
 ## 🌟 Features
 
